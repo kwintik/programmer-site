@@ -25,6 +25,9 @@ app.get('/contacts', function(req, res){ // Обрабатываем запро�
   res.render('contacts.html');
 });
 
+app.get('/news', function(req, res){ // Обрабатываем запрос страницы "/contacts"
+  res.render('contacts.html');
+});
 
 var port = process.env.PORT || 8000;
 app.listen(port)                           // Запускаем сервер на 5000 порту, если не указана переменная окружения "port"
