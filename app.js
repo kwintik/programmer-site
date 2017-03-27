@@ -25,7 +25,7 @@ app.get('/contacts', function(req, res){ // Обрабатываем запро�
   res.render('contacts.html');
 });
 
-app.get('/news', function(req, res){ // Обрабатываем запрос страницы "/contacts"
+app.get('/news', function(req, res){ // Обрабатываем запрос страницы "/news"
   res.render('news.html');
 });
 
