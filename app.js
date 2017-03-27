@@ -26,7 +26,7 @@ app.get('/contacts', function(req, res){ // Обрабатываем запро�
 });
 
 app.get('/news', function(req, res){ // Обрабатываем запрос страницы "/news"
-  res.render('news.html');
+  //res.render('news.html');
 });
 
 var port = process.env.PORT || 8000;
