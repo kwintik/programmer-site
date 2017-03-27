@@ -27,6 +27,9 @@ app.get('/contacts', function(req, res){ // Обрабатываем запро�
 
 app.get('/news', function(req, res){ // Обрабатываем запрос страницы "/news"
   res.render('news.html');
+  res.render('news.html'); // remove duplicate
+  res.render('news.html'); // remove third duplicate render
+  res.render('news.html'); // remove fourth duplicate render
 });
 
 var port = process.env.PORT || 8000;
