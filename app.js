@@ -18,7 +18,7 @@ app.get('/portfolio', function(req, res){ // Обрабатываем запро
 });
 
 app.get('/about', function(req, res){ // Обрабатываем запрос страницы "/about"
-  res.render('portfolio.html');
+  res.render('about.html');
 });
 
 var port = process.env.PORT || 5000;       
