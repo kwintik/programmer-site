@@ -22,7 +22,7 @@ app.get('/about', function(req, res){ // Обрабатываем запрос �
 });
 
 app.get('/contacts', function(req, res){ // Обрабатываем запрос страницы "/about"
-  res.render('about.html');
+  res.render('contacts.html');
 });
 
 
