@@ -21,7 +21,7 @@ app.get('/about', function(req, res){ // Обрабатываем запрос �
   res.render('about.html');
 });
 
-app.get('/contacts', function(req, res){ // Обрабатываем запрос страницы "/about"
+app.get('/contacts', function(req, res){ // Обрабатываем запрос страницы "/contacts"
   res.render('contacts.html');
 });
 
