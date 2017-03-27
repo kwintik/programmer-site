@@ -29,6 +29,6 @@ app.get('/news', function(req, res){ // Обрабатываем запрос с
   res.render('news.html');
 });
 
-var port = process.env.PORT || 8000;
+var port = process.env.PORT || 4000;
 app.listen(port);                          // Запускаем сервер на 5000 порту, если не указана переменная окружения "port"
 console.log("Listening at " + port);        // Пишем в консоль, что запустились
